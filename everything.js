@@ -1412,13 +1412,11 @@ const recipes = {
 
 howElems = 702;
 
-/* Get Storage
 thing = localStorage.getItem('littleAlchemy2Stuff')
 if(thing == null){
  yourStuff = ['air','earth','fire','water'];
 } else {
  yourStuff = thing;
-*/
 
 yourStuff = ['air','earth','fire','water'];
 
@@ -1479,10 +1477,8 @@ while((what1 != 'stop') && (what1 != 'clear')){
  } else {
   alert("You don't have one or more of those items");
  }
- /* save
  localStorage.setItem('littleAlchemy2Stuff',yourStuff);
  if(what1 == 'clear'){
   localStorage.setItem('littleAlchemy2Stuff',null);
  }
- */
 }
